@@ -5,7 +5,7 @@
 ### Arquitectura del proyecto
 ### Tecnologías y dependencias
 ### Elasticsearch
-### Integracion con spring boot
+### Integracion con Spring Boot
 ### Ejecución del proyecto
 ### Documentacion oficial
 
@@ -165,9 +165,8 @@ Las anotaciones principales en Spring Data Elasticsearch son:
 - Docker (PostgreSQL, ElasticSearch y Kibana)
 - IDE o herramienta de compilación (Eclipse, Maven)
 
-### Servicio: EslaticSearch
-Si no tenes el servidor de EslasticSearch se puede levantar con Kibana con el siguiente 
-`docker-compose.yml` ejecutandolo en docker:
+### Servicio EslaticSearch
+Podes levantar el servidor de EslasticSearch (con Kibana) con el siguiente `docker-compose.yml` ejecutandolo en docker:
 ```
 version: '3.8'
 services:
